@@ -50,7 +50,7 @@ function pararRotacao() {
 // Capítulos mantendo estado do play
 function mudarCapitulo(novoCapitulo) {
   capitulo = novoCapitulo;
-  audio.src = `/audios/${capitulo}.mp3`;
+  audio.src = `audios/${capitulo}.mp3`;
   nomeCapitulo.innerText = `Capítulo ${capitulo}`;
 
   if (taTocando) {
